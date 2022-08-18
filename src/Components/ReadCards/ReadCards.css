@@ -1,0 +1,217 @@
+.readContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.readContent {
+  width: 80%;
+  display: flex;
+}
+
+.mainCard {
+    margin-top: 60px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 70%;
+  height: 60%;
+  border: 1px solid #000000;
+  overflow: hidden;
+  position: relative;
+  border: none;
+}
+
+.leftImg {
+  width: 100%;
+  margin-right: 20px;
+  height: 500px;
+  background-position: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(13, 13, 13, 0.73)
+    ),
+    url("https://cdn.trell.co/w=360,h=360,fit=scale-down/user-images/images/orig/qBtrJPahLHl2WbKDoqrytpdPtlnxeDkc.jpg");
+  background-repeat: no-repeat;
+  transition: all 1s;
+  border-radius: 10px;
+  color: white;
+  background-size: cover;
+  z-index: 100;
+  border: none;
+  outline: none;
+  display: flex;
+}
+
+
+.leftImg:hover {
+  transform: scale(1.1);
+}
+
+.imgContent{
+  position: absolute;
+  bottom: 10px;
+  font-size: 40px;
+  color: white;
+  left: 10px;
+}
+
+
+.profileCon{
+  position: absolute; 
+  display: flex;
+  bottom: 2px;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.profileCon img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+.profileCon p{
+  font-size: 20px;
+}
+
+
+.leftImg .icon {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+
+
+.sideImgCon{
+  position: absolute; 
+  display: flex;
+  /* bottom: 2px; */
+  top: 100px;
+  align-items: center;
+  color: white;
+  z-index: 1000;
+  width: 100%;
+}
+
+.sideImgCon p{
+  font-size:17px;
+  margin-left: 10px;
+}
+
+.sidePrImg{
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  color: white;
+  top: 160px;
+}
+
+
+
+.sidePrImg img{
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+
+
+
+.sideImgCon2{
+  position: absolute; 
+  display: flex;
+  bottom: 40px;
+  /* top: 100px; */
+  align-items: center;
+  color: white;
+  z-index: 1000;
+  width: 100%;
+}
+
+.sideImgCon2 p{
+  font-size:17px;
+  margin-left: 10px;
+}
+
+.sidePrImg2{
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* top: 160px; */
+  bottom: 5px;
+}
+
+
+
+.sidePrImg2 img{
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+
+
+.view{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right{
+  margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+.rightImg{
+    width: 100%;
+    height: 500px;
+    /* background-image: url('https://cdn.trell.co/w=360,h=360,fit=scale-down/user-images/images/orig/qBtrJPahLHl2WbKDoqrytpdPtlnxeDkc.jpg'); */
+    background-position: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1),
+        rgba(13, 13, 13, 0.73)
+      ),
+      url("https://cdn.trell.co/w=360,h=360,fit=scale-down/user-images/images/orig/tlRatsoLkZrHscGzSGK3YIuFwmW0l7zo.jpg");
+    background-repeat: no-repeat;
+    transition: all 1s;
+    border-radius: 10px;
+    color: white;
+    background-size: cover;
+    z-index: 100;
+    border: none;
+    outline: none;
+}
+
+.rightImg:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .img{
+    margin-bottom: 20px;
+  }

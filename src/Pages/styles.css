@@ -1,0 +1,158 @@
+.videoContainer video {
+  width: 100%;
+}
+
+.loginCont {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.loginCont video {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.loginContent {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infoCont {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.infoCont .svg {
+  height: 100px;
+  width: 100px;
+}
+.infoCont .india {
+  color: white;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.infoCont h1 {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 30px;
+  max-width: 550px;
+  text-align: center;
+  margin: 1em 0;
+  font-weight: 500;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  line-height: 1.4;
+}
+
+.down {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 30px;
+  max-width: 550px;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  line-height: 1.4;
+  margin-bottom: 2em;
+}
+
+.buttonsCont {
+  display: flex;
+}
+
+.Google .iconPlay {
+  width: 18px;
+}
+.AppStore .iconPlay {
+  width: 18px;
+}
+
+.Google {
+  padding: 5px 22px;
+  background: #000000;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.AppStore {
+  margin-left: 20px;
+  padding: 5px 22px;
+  background: #000000;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.loginBtn {
+  padding: 12px 100px;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to left, rgb(242, 54, 59), rgb(143, 68, 173)) repeat scroll
+    0% 0%;
+  color: white;
+  animation: pulse-download 1s infinite ease-in-out;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  outline-style: none;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  animation: shadow-pulse 1s infinite;
+}
+
+.loginBtn .downIcon {
+  /* margin-right: 5px; */
+  width: 40px;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(253, 129, 146, 0.694);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(193, 2, 193, 0.455);
+  }
+}
+
+@keyframes shadow-pulse-big {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 0, 102, 0.642);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(169, 4, 214, 0);
+  }
+}

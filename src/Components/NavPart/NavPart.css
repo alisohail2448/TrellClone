@@ -1,0 +1,274 @@
+.banner {
+  width: 100vw;
+  height: 270px;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #11004a, #1d0130);
+}
+
+.header-info {
+  display: flex;
+  padding: 10px 80px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.svg-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-icon svg{
+  width: 40px;
+}
+
+.svg-icon .icon {
+  color: #ececec;
+  font-size: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button button {
+  padding: 10px 20px;
+  background: linear-gradient(to left, #f2363b, #8f44ad);
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-family: Lato;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.button h4 {
+  font-size: 20px;
+  color: white;
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+.button .icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.mainInfo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  margin-bottom: 22px;
+}
+
+.mainInfo h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.mainInfo h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.items {
+  display: flex;
+}
+
+.item {
+  padding: 5px 22px;
+  background: linear-gradient(to left, #f2363b, #8f44ad);
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.item .icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.google {
+  padding: 5px 22px;
+  background: #c06ce1;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-left: 20px;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.appstore {
+  margin-left: 20px;
+  padding: 5px 22px;
+  background: #c06ce1;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.appstore:hover,
+.google:hover {
+  background-color: #8f44ad;
+}
+
+.play p {
+  font-size: 10px;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.play {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.play h3 {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.navbar {
+  width: 100vw;
+  height: 60px;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20px; */
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 1px 6px 0 rgba(195, 201, 209, 0.35);
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.content h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 3px solid red;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  font-size: 20px;
+  color: gray;
+  font-weight: bold;
+  background-color: rgb(57, 59, 61);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  width: 200px;
+  /* height: 300px; */
+  font-size: 20px;
+  z-index: 100;
+  position: relative;
+  top: 180px;
+  left: -20px;
+  transition: 0.3s all;
+}
+
+.popup.popoff {
+  display: none;
+}
+
+.popup ul {
+  list-style: none;
+  margin: 0;
+}
+ul {
+    width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 15px 10px;
+}
+ul li:hover {
+  /* width: 100%; */
+  background-color: #aaa8a8;
+  color: white;
+}
+
+.socialDiv{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* margin: 10px 0; */
+    align-items: center;
+    width: 100%;
+}
+
+.socialBox img{
+    border-radius: 50%;
+}
+
+.socialBox{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+
+}
+
+.socialBox img{
+    width: 30px;
+    padding: 10px;
+}
+
+.socialBox:hover{
+    background-color: #868585;
+    color: white;
+}
